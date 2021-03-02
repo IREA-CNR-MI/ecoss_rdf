@@ -39,6 +39,7 @@ SELECT Code_HabitatAnnexI AS habitatcode, LandigPage_EunisEEAHabitat AS landingP
 -- sito a n2ksite; 
 --      has_habitat habitat1, habitat2, ..., habitatN;
 --		has_species species1, species2, ..., ..., speciesM;
+--      webpage concat("https://eunis.eea.europa.eu/sites/", SITECODE)
 -- habitat1 a habitatAnnex1_habitat;
 --		webpage landingpage
 -- species1 a species;
