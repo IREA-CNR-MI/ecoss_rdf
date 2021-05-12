@@ -1,6 +1,6 @@
 1. upload to fuseki (in ecoss dataset) the following files:
 ecossVariables.ttl
 ecoss_recommendation_forEunis.ttl
-2. update the file parameters.ttl and upload it.
-3. update file criteria.ttl and upload
+2. parameters.ttl upload to fuseki.
+3. ecossVariablesMatchingMSFD.ttl upload to fuseki
 
