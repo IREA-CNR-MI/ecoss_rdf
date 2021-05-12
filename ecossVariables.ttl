@@ -143,9 +143,9 @@ ecoss:var.134 a skos:Concept; skos:prefLabel "wind exposure"; skos:inScheme ecos
 PREFIX ecoss: <http://rdfdata.get-it.it/ecoss/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 ecoss:ecossVariables a skos:ConceptScheme; skos:prefLabel "ecossVariables" .
-ecoss:class.E a skos:Concept; prefLabel "Environmental variable" .
-ecoss:class.O a skos:Concept; prefLabel "Oceanographic variable" .
-ecoss:class.P a skos:Concept; prefLabel "Pressure variable" .
+ecoss:class.E a skos:Concept; skos:prefLabel "Environmental variable" .
+ecoss:class.O a skos:Concept; skos:prefLabel "Oceanographic variable" .
+ecoss:class.P a skos:Concept; skos:prefLabel "Pressure variable" .
 ecoss:var.1 ecoss:variableClass ecoss:class.E .
 ecoss:var.2 ecoss:variableClass ecoss:class.E .
 ecoss:var.3 ecoss:variableClass ecoss:class.E .
