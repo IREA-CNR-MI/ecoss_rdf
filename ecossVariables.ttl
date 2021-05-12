@@ -1,0 +1,466 @@
+# 1. definizione variabili ecoss
+PREFIX ecoss: <http://rdfdata.get-it.it/ecoss/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+ecoss:ecossVariables a skos:ConceptScheme; skos:prefLabel ""ecossVariables"" ."
+ecoss:var.1 a skos:Concept; skos:prefLabel "abundance"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.2 a skos:Concept; skos:prefLabel "abundance of herbivores"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.3 a skos:Concept; skos:prefLabel "abundance of opportunistic species"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.4 a skos:Concept; skos:prefLabel "age"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.5 a skos:Concept; skos:prefLabel "air temperature"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.6 a skos:Concept; skos:prefLabel "amount of litter and micro-litter ingested"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.7 a skos:Concept; skos:prefLabel "amount of precipitation"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.8 a skos:Concept; skos:prefLabel "area cover destructed by anchoring-trawling"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.9 a skos:Concept; skos:prefLabel "area covered by and structure of the suitable habitats"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.10 a skos:Concept; skos:prefLabel "area covered by suitable habitats and their structure"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.11 a skos:Concept; skos:prefLabel "associated organisms"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.12 a skos:Concept; skos:prefLabel "biomass"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.13 a skos:Concept; skos:prefLabel "biomass of epiphytes"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.14 a skos:Concept; skos:prefLabel "biometric measures"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.15 a skos:Concept; skos:prefLabel "birth-growth and mortality rate"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.16 a skos:Concept; skos:prefLabel "birth-growth and mortality rate/mortality rate from incidental by-catch or incidents with boats"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.17 a skos:Concept; skos:prefLabel "chlorophyll a"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.18 a skos:Concept; skos:prefLabel "community structure"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.19 a skos:Concept; skos:prefLabel "competition with other species"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.20 a skos:Concept; skos:prefLabel "competition with other species including invasive species"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.21 a skos:Concept; skos:prefLabel "composition, amount and spatial distribution of litter and micro-litter in water and coastline"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.22 a skos:Concept; skos:prefLabel "composition, amount and spatial distribution of litter and micro-litter in water, on seabed and coastline"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.23 a skos:Concept; skos:prefLabel "composition, amount and spatial distribution of litter and micro-litter on the seabed"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.24 a skos:Concept; skos:prefLabel "contaminant concentration in sediments"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.25 a skos:Concept; skos:prefLabel "contaminant concentration in tissues"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.26 a skos:Concept; skos:prefLabel "contaminant concentration in water"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.27 a skos:Concept; skos:prefLabel "cover"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.28 a skos:Concept; skos:prefLabel "cover of opportunistic species"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.29 a skos:Concept; skos:prefLabel "current direction"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.30 a skos:Concept; skos:prefLabel "current velocity"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.31 a skos:Concept; skos:prefLabel "density"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.31 a skos:Concept; skos:prefLabel "density"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.32 a skos:Concept; skos:prefLabel "density of herbivores"; skos:inScheme ecoss:ecossVariables .
+
+ecoss:var.33 a skos:Concept; skos:prefLabel "depth"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.34 a skos:Concept; skos:prefLabel "dispersal"; skos:inScheme ecoss:ecossVariables .
+
+ecoss:var.35 a skos:Concept; skos:prefLabel "dissimilarity between species"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.36 a skos:Concept; skos:prefLabel "dissolved oxygen"; skos:inScheme ecoss:ecossVariables .
+
+ecoss:var.37 a skos:Concept; skos:prefLabel "effect of trampling"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.38 a skos:Concept; skos:prefLabel "effects of significant acute pollution events on the health of individuals and the condition of habitats"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.39 a skos:Concept; skos:prefLabel "emigration rate"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.40 a skos:Concept; skos:prefLabel "erosion-recolonization rate"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.41 a skos:Concept; skos:prefLabel "estimate of illegal fishing mortality rate"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.42 a skos:Concept; skos:prefLabel "events of human disturbance"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.43 a skos:Concept; skos:prefLabel "fishing mortality rate"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.44 a skos:Concept; skos:prefLabel "flow rate"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.45 a skos:Concept; skos:prefLabel "frequency, intensity, duration, spatial extent and species composition of harmful algal blooms"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.46 a skos:Concept; skos:prefLabel "genetic diversity"; skos:inScheme ecoss:ecossVariables .
+
+ecoss:var.47 a skos:Concept; skos:prefLabel "geographic orientation respect to currents"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.48 a skos:Concept; skos:prefLabel "growth rate"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.49 a skos:Concept; skos:prefLabel "growth-mortality rates"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.50 a skos:Concept; skos:prefLabel "gut content"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.51 a skos:Concept; skos:prefLabel "habitat characterization"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.52 a skos:Concept; skos:prefLabel "heavy metal concentration in tissues"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.53 a skos:Concept; skos:prefLabel "heavy metal pollutant concentration"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.54 a skos:Concept; skos:prefLabel "immigration rate"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.55 a skos:Concept; skos:prefLabel "intensity and spatial and temporal variation of physical disturbance"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.56 a skos:Concept; skos:prefLabel "interaction with fishing activities and fish farms (site fidelity, group dynamics, and seasonal and yearly occurrence)"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.57 a skos:Concept; skos:prefLabel "interaction with other species"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.58 a skos:Concept; skos:prefLabel "leaf elongation rate"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.59 a skos:Concept; skos:prefLabel "mortality rate due to anchoring-fishing-diving"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.60 a skos:Concept; skos:prefLabel "mortality rate due to Haplosporidium pinnae"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.61 a skos:Concept; skos:prefLabel "mortality rate from incidental by-catch"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.62 a skos:Concept; skos:prefLabel "mortality rate from incidental by-catch or incidents with nets/fences"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.63 a skos:Concept; skos:prefLabel "net primary productivity"; skos:inScheme ecoss:ecossVariables .
+
+ecoss:var.64 a skos:Concept; skos:prefLabel "number and distribution of nesting sites and breeding pairs"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.65 a skos:Concept; skos:prefLabel "number of barriers to migration"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.66 a skos:Concept; skos:prefLabel "number of feeding sites"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.67 a skos:Concept; skos:prefLabel "number of individuals adversely affected due to litter"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.68 a skos:Concept; skos:prefLabel "number of resting sites and features"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.69 a skos:Concept; skos:prefLabel "number of suitable sites for reproduction"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.70 a skos:Concept; skos:prefLabel "number of taxa per functional group"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.71 a skos:Concept; skos:prefLabel "number, frequency and period of the year of extreme events"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.72 a skos:Concept; skos:prefLabel "number/percentage cover of damaged organisms/substrate"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.73 a skos:Concept; skos:prefLabel "nutrient concentration in sediments"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.74 a skos:Concept; skos:prefLabel "nutrient concentration in water"; skos:inScheme ecoss:ecossVariables .
+
+ecoss:var.75 a skos:Concept; skos:prefLabel "organic matter in sediments"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.76 a skos:Concept; skos:prefLabel "organic pollutant concentration"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.77 a skos:Concept; skos:prefLabel "organic pollutant concentration in tissues"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.78 a skos:Concept; skos:prefLabel "PAR"; skos:inScheme ecoss:ecossVariables .
+
+ecoss:var.79 a skos:Concept; skos:prefLabel "patch size"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.80 a skos:Concept; skos:prefLabel "percentage cover of benthic species"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.81 a skos:Concept; skos:prefLabel "percentage cover of invasive species"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.82 a skos:Concept; skos:prefLabel "percentage cover of sediment"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.83 a skos:Concept; skos:prefLabel "percentage of necrotic tissues"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.84 a skos:Concept; skos:prefLabel "pH"; skos:inScheme ecoss:ecossVariables .
+
+ecoss:var.85 a skos:Concept; skos:prefLabel "phenological measures"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.86 a skos:Concept; skos:prefLabel "photosynthetic activity"; skos:inScheme ecoss:ecossVariables .
+
+ecoss:var.87 a skos:Concept; skos:prefLabel "predators abundance"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.88 a skos:Concept; skos:prefLabel "predators density"; skos:inScheme ecoss:ecossVariables .
+
+ecoss:var.89 a skos:Concept; skos:prefLabel "presence and size of erect Anthozoa"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.90 a skos:Concept; skos:prefLabel "presence of epibiotics"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.91 a skos:Concept; skos:prefLabel "presence of erect Anthozoa"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.92 a skos:Concept; skos:prefLabel "presence/abundance of invasive species"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.93 a skos:Concept; skos:prefLabel "presence/quantity of mucilage and number of events"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.94 a skos:Concept; skos:prefLabel "prey abundance"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.95 a skos:Concept; skos:prefLabel "prey distribution"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.96 a skos:Concept; skos:prefLabel "recruitment rate"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.97 a skos:Concept; skos:prefLabel "relative exposure index (REI)"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.98 a skos:Concept; skos:prefLabel "rugosity (structural complexity)"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.99 a skos:Concept; skos:prefLabel "salinity"; skos:inScheme ecoss:ecossVariables .
+
+ecoss:var.100 a skos:Concept; skos:prefLabel "sediment type"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.101 a skos:Concept; skos:prefLabel "sedimentation rate"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.102 a skos:Concept; skos:prefLabel "settlement rate"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.103 a skos:Concept; skos:prefLabel "sex"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.104 a skos:Concept; skos:prefLabel "shell burial level and orientation"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.105 a skos:Concept; skos:prefLabel "signs of injuries"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.106 a skos:Concept; skos:prefLabel "size of erect Anthozoa"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.107 a skos:Concept; skos:prefLabel "slope"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.108 a skos:Concept; skos:prefLabel "spatial and temporal variation of hydrographical conditions"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.109 a skos:Concept; skos:prefLabel "spatial distribution"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.110 a skos:Concept; skos:prefLabel "spatial distribution, temporal extent, and levels of noise pollution by traffic boats"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.111 a skos:Concept; skos:prefLabel "spatial extent and duration of significant acute pollution events"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.112 a skos:Concept; skos:prefLabel "spatial extent of each habitat type adversely affected due to alteration of hydrographical conditions"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.113 a skos:Concept; skos:prefLabel "spatial extent of the suitable habitat adversely affected due to alteration of hydrographical conditions"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.114 a skos:Concept; skos:prefLabel "spatial extent of the suitable habitat which is adversely affected through change in its biotic and abiotic structure and its functions by physical disturbance"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.115 a skos:Concept; skos:prefLabel "spatial extent of the suitable habitat which is adversely affected through change in its biotic and abiotic structure and its functions by physical disturbance spatial and temporal variation of hydrographical conditions"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.116 a skos:Concept; skos:prefLabel "spatial movements"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.117 a skos:Concept; skos:prefLabel "spawning rate"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.118 a skos:Concept; skos:prefLabel "spawning stock biomass"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.119 a skos:Concept; skos:prefLabel "temperature"; skos:inScheme ecoss:ecossVariables .
+
+ecoss:var.120 a skos:Concept; skos:prefLabel "texture of the calcareous matrix"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.121 a skos:Concept; skos:prefLabel "the amount of litter and micro-litter ingested"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.122 a skos:Concept; skos:prefLabel "the amount of litter and micro-litter ingested, the number of individuals which are adversely affected due to litter"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.123 a skos:Concept; skos:prefLabel "the number of individuals which are adversely affected due to litter"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.124 a skos:Concept; skos:prefLabel "timing and duration of the estuarine phase"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.125 a skos:Concept; skos:prefLabel "turbidity"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.126 a skos:Concept; skos:prefLabel "type of barriers to migration"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.127 a skos:Concept; skos:prefLabel "type of substrate"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.128 a skos:Concept; skos:prefLabel "type of substratum"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.129 a skos:Concept; skos:prefLabel "type, number and proximity of vessels to dolphins"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.130 a skos:Concept; skos:prefLabel "water flow rate"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.131 a skos:Concept; skos:prefLabel "water level"; skos:inScheme ecoss:ecossVariables .
+
+ecoss:var.132 a skos:Concept; skos:prefLabel "water temperature"; skos:inScheme ecoss:ecossVariables .
+
+ecoss:var.133 a skos:Concept; skos:prefLabel "wave exposure"; skos:inScheme ecoss:ecossVariables .
+ecoss:var.134 a skos:Concept; skos:prefLabel "wind exposure"; skos:inScheme ecoss:ecossVariables .
+
+
+# 2. appartenenza variabili ecoss a classi E, O, P
+"PREFIX ecoss: <http://rdfdata.get-it.it/ecoss/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+ecoss:ecossVariables a skos:ConceptScheme; skos:prefLabel "ecossVariables" .
+ecoss:class.E a skos:Concept; prefLabel "Environmental variable".
+ecoss:class.O a skos:Concept; prefLabel "Oceanographic variable".
+ecoss:class.P a skos:Concept; prefLabel "Pressure variable".
+ecoss:var.1 ecoss:variableClass ecoss:class.E .
+ecoss:var.2 ecoss:variableClass ecoss:class.E .
+ecoss:var.3 ecoss:variableClass ecoss:class.E .
+ecoss:var.4 ecoss:variableClass ecoss:class.E .
+ecoss:var.5 ecoss:variableClass ecoss:class.O .
+ecoss:var.6 ecoss:variableClass ecoss:class.P .
+ecoss:var.7 ecoss:variableClass ecoss:class.O .
+ecoss:var.8 ecoss:variableClass ecoss:class.P .
+ecoss:var.9 ecoss:variableClass ecoss:class.E .
+ecoss:var.10 ecoss:variableClass ecoss:class.E .
+ecoss:var.11 ecoss:variableClass ecoss:class.E .
+ecoss:var.12 ecoss:variableClass ecoss:class.E .
+ecoss:var.13 ecoss:variableClass ecoss:class.E .
+ecoss:var.14 ecoss:variableClass ecoss:class.E .
+ecoss:var.15 ecoss:variableClass ecoss:class.E .
+ecoss:var.16 ecoss:variableClass ecoss:class.E, ecoss:class.P .
+ecoss:var.17 ecoss:variableClass ecoss:class.O .
+ecoss:var.18 ecoss:variableClass ecoss:class.E .
+ecoss:var.19 ecoss:variableClass ecoss:class.E .
+ecoss:var.20 ecoss:variableClass ecoss:class.E .
+ecoss:var.21 ecoss:variableClass ecoss:class.P .
+ecoss:var.22 ecoss:variableClass ecoss:class.P .
+ecoss:var.23 ecoss:variableClass ecoss:class.P .
+ecoss:var.24 ecoss:variableClass ecoss:class.P .
+ecoss:var.25 ecoss:variableClass ecoss:class.P .
+ecoss:var.26 ecoss:variableClass ecoss:class.P .
+ecoss:var.27 ecoss:variableClass ecoss:class.E .
+ecoss:var.28 ecoss:variableClass ecoss:class.E .
+ecoss:var.29 ecoss:variableClass ecoss:class.O .
+ecoss:var.30 ecoss:variableClass ecoss:class.O .
+ecoss:var.31 ecoss:variableClass ecoss:class.E .
+ecoss:var.31 ecoss:variableClass ecoss:class.E .
+ecoss:var.32 ecoss:variableClass ecoss:class.E .
+ .
+ecoss:var.33 ecoss:variableClass ecoss:class.O .
+ecoss:var.34 ecoss:variableClass ecoss:class.E .
+ .
+ecoss:var.35 ecoss:variableClass ecoss:class.E .
+ecoss:var.36 ecoss:variableClass ecoss:class.O .
+ .
+ecoss:var.37 ecoss:variableClass ecoss:class.P .
+ecoss:var.38 ecoss:variableClass ecoss:class.P .
+ecoss:var.39 ecoss:variableClass ecoss:class.E .
+ecoss:var.40 ecoss:variableClass ecoss:class.E .
+ecoss:var.41 ecoss:variableClass ecoss:class.P .
+ecoss:var.42 ecoss:variableClass ecoss:class.P .
+ecoss:var.43 ecoss:variableClass ecoss:class.E .
+ecoss:var.44 ecoss:variableClass ecoss:class.O .
+ecoss:var.45 ecoss:variableClass ecoss:class.E .
+ecoss:var.46 ecoss:variableClass ecoss:class.E .
+ .
+ecoss:var.47 ecoss:variableClass ecoss:class.O .
+ecoss:var.48 ecoss:variableClass ecoss:class.E .
+ecoss:var.49 ecoss:variableClass ecoss:class.E .
+ecoss:var.50 ecoss:variableClass ecoss:class.E .
+ecoss:var.51 ecoss:variableClass ecoss:class.E .
+ecoss:var.52 ecoss:variableClass ecoss:class.P .
+ecoss:var.53 ecoss:variableClass ecoss:class.P .
+ecoss:var.54 ecoss:variableClass ecoss:class.E .
+ecoss:var.55 ecoss:variableClass ecoss:class.P .
+ecoss:var.56 ecoss:variableClass ecoss:class.P .
+ecoss:var.57 ecoss:variableClass ecoss:class.E .
+ecoss:var.58 ecoss:variableClass ecoss:class.E .
+ecoss:var.59 ecoss:variableClass ecoss:class.P .
+ecoss:var.60 ecoss:variableClass ecoss:class.E .
+ecoss:var.61 ecoss:variableClass ecoss:class.P .
+ecoss:var.62 ecoss:variableClass ecoss:class.P .
+ecoss:var.63 ecoss:variableClass ecoss:class.E .
+ .
+ecoss:var.64 ecoss:variableClass ecoss:class.E .
+ecoss:var.65 ecoss:variableClass ecoss:class.P .
+ecoss:var.66 ecoss:variableClass ecoss:class.E .
+ecoss:var.67 ecoss:variableClass ecoss:class.P .
+ecoss:var.68 ecoss:variableClass ecoss:class.E .
+ecoss:var.69 ecoss:variableClass ecoss:class.E .
+ecoss:var.70 ecoss:variableClass ecoss:class.E .
+ecoss:var.71 ecoss:variableClass ecoss:class.O .
+ecoss:var.72 ecoss:variableClass ecoss:class.E .
+ecoss:var.73 ecoss:variableClass ecoss:class.O .
+ecoss:var.74 ecoss:variableClass ecoss:class.O .
+ .
+ecoss:var.75 ecoss:variableClass ecoss:class.O .
+ecoss:var.76 ecoss:variableClass ecoss:class.P .
+ecoss:var.77 ecoss:variableClass ecoss:class.P .
+ecoss:var.78 ecoss:variableClass ecoss:class.O .
+ .
+ecoss:var.79 ecoss:variableClass ecoss:class.E .
+ecoss:var.80 ecoss:variableClass ecoss:class.E .
+ecoss:var.81 ecoss:variableClass ecoss:class.E, ecoss:class.P .
+ecoss:var.82 ecoss:variableClass ecoss:class.O .
+ecoss:var.83 ecoss:variableClass ecoss:class.E .
+ecoss:var.84 ecoss:variableClass ecoss:class.O .
+ .
+ecoss:var.85 ecoss:variableClass ecoss:class.E .
+ecoss:var.86 ecoss:variableClass ecoss:class.E .
+ .
+ecoss:var.87 ecoss:variableClass ecoss:class.E .
+ecoss:var.88 ecoss:variableClass ecoss:class.E .
+ .
+ecoss:var.89 ecoss:variableClass ecoss:class.E .
+ecoss:var.90 ecoss:variableClass ecoss:class.E .
+ecoss:var.91 ecoss:variableClass ecoss:class.E .
+ecoss:var.92 ecoss:variableClass ecoss:class.E, ecoss:class.P .
+ecoss:var.93 ecoss:variableClass ecoss:class.E .
+ecoss:var.94 ecoss:variableClass ecoss:class.E .
+ecoss:var.95 ecoss:variableClass ecoss:class.E .
+ecoss:var.96 ecoss:variableClass ecoss:class.E .
+ecoss:var.97 ecoss:variableClass ecoss:class.O .
+ecoss:var.98 ecoss:variableClass ecoss:class.E .
+ecoss:var.99 ecoss:variableClass ecoss:class.O .
+ .
+ecoss:var.100 ecoss:variableClass ecoss:class.O .
+ecoss:var.101 ecoss:variableClass ecoss:class.O .
+ecoss:var.102 ecoss:variableClass ecoss:class.E .
+ecoss:var.103 ecoss:variableClass ecoss:class.E .
+ecoss:var.104 ecoss:variableClass ecoss:class.E .
+ecoss:var.105 ecoss:variableClass ecoss:class.P .
+ecoss:var.106 ecoss:variableClass ecoss:class.E .
+ecoss:var.107 ecoss:variableClass ecoss:class.O .
+ecoss:var.108 ecoss:variableClass ecoss:class.P .
+ecoss:var.109 ecoss:variableClass ecoss:class.E .
+ecoss:var.110 ecoss:variableClass ecoss:class.P .
+ecoss:var.111 ecoss:variableClass ecoss:class.P .
+ecoss:var.112 ecoss:variableClass ecoss:class.P .
+ecoss:var.113 ecoss:variableClass ecoss:class.P .
+ecoss:var.114 ecoss:variableClass ecoss:class.P .
+ecoss:var.115 ecoss:variableClass ecoss:class.P .
+ecoss:var.116 ecoss:variableClass ecoss:class.E .
+ecoss:var.117 ecoss:variableClass ecoss:class.E .
+ecoss:var.118 ecoss:variableClass ecoss:class.E .
+ecoss:var.119 ecoss:variableClass ecoss:class.O .
+ .
+ecoss:var.120 ecoss:variableClass ecoss:class.E .
+ecoss:var.121 ecoss:variableClass ecoss:class.P .
+ecoss:var.122 ecoss:variableClass ecoss:class.P .
+ecoss:var.123 ecoss:variableClass ecoss:class.P .
+ecoss:var.124 ecoss:variableClass ecoss:class.E .
+ecoss:var.125 ecoss:variableClass ecoss:class.O .
+ecoss:var.126 ecoss:variableClass ecoss:class.P .
+ecoss:var.127 ecoss:variableClass ecoss:class.O .
+ecoss:var.128 ecoss:variableClass ecoss:class.O .
+ecoss:var.129 ecoss:variableClass ecoss:class.P .
+ecoss:var.130 ecoss:variableClass ecoss:class.O .
+ecoss:var.131 ecoss:variableClass ecoss:class.O .
+ .
+ecoss:var.132 ecoss:variableClass ecoss:class.O .
+ .
+ecoss:var.133 ecoss:variableClass ecoss:class.O .
+ecoss:var.134 ecoss:variableClass ecoss:class.O .
+
+# 3. relazioni con envthes
+"
+PREFIX ecoss: <http://rdfdata.get-it.it/ecoss/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX envthes: <http://vocabs.lter-europe.net/EnvThes/>"
+ecoss:var.1 skos:closeMatch envthes:21541 .
+ecoss:var.2 skos:broadMatch envthes:10018 .
+ecoss:var.3 skos:broadMatch envthes:10018 .
+ecoss:var.4 skos:narrowMatch envthes:21353, envthes:21354, envthes:21355 .
+ecoss:var.5 skos:exactMatch envthes:22035 .
+ecoss:var.6 skos:relatedMatch envthes:22163, envthes:10048 .
+ecoss:var.7 skos:relatedMatch envthes:22166, envthes:22204 .
+ecoss:var.8 skos:  .
+ecoss:var.9 skos:relatedMatch envthes:22128, envthes:21478, envthes:21486, envthes:21489 .
+ecoss:var.10 skos:relatedMatch envthes:22128, envthes:21478, envthes:21486, envthes:21489 .
+ecoss:var.11 skos:  .
+ecoss:var.12 skos:exactMatch envthes:20790 .
+ecoss:var.13 skos:broadMatch envthes:20790 .
+ecoss:var.14 skos:  .
+ecoss:var.15 skos:narrowMatch envthes:21050 .
+ecoss:var.16 skos:narrowMatch envthes:21050 .
+ecoss:var.17 skos:closeMatch envthes:21214 .
+ecoss:var.18 skos:exactMatch envthes:21472 .
+ecoss:var.19 skos:closeMatch envthes:21097 .
+ecoss:var.20 skos:closeMatch envthes:21097 .
+ecoss:var.21 skos:relatedMatch envthes:22163, envthes:10048 .
+ecoss:var.22 skos:relatedMatch envthes:22163, envthes:10048 .
+ecoss:var.23 skos:relatedMatch envthes:22163, envthes:10048 .
+ecoss:var.24 skos:  .
+ecoss:var.25 skos:  .
+ecoss:var.26 skos:  .
+ecoss:var.27 skos:exactMatch envthes:21519 .
+ecoss:var.28 skos:broadMatch envthes:21519 .
+ecoss:var.29 skos:exactMatch envthes:30026 .
+ecoss:var.30 skos:closeMatch envthes:30027 .
+ecoss:var.31 skos:exactMatch envthes:21539 .
+ecoss:var.31 skos:narrowMatch envthes:22198 .
+ecoss:var.32 skos:broadMatch envthes:21539 .
+ecoss:var.32 skos:relatedMatch envthes:22198 .
+ecoss:var.33 skos:closeMatch envthes:22310, envthes:30025 .
+ecoss:var.34 skos:exactMatch envthes:21038 .
+ecoss:var.34 skos:narrowMatch envthes:21039, envthes:22153 .
+ecoss:var.35 skos:  .
+ecoss:var.36 skos:exactMatch envthes:20851 .
+ecoss:var.36 skos:closeMatch envthes:30179, envthes:21215 .
+ecoss:var.37 skos:  .
+ecoss:var.38 skos:relatedMatch envthes:22128, envthes:21478, envthes:21486, envthes:21489 .
+ecoss:var.39 skos:  .
+ecoss:var.40 skos:  .
+ecoss:var.41 skos:broadMatch envthes:21050 .
+ecoss:var.42 skos:  .
+ecoss:var.43 skos:broadMatch envthes:21050 .
+ecoss:var.44 skos:  .
+ecoss:var.45 skos:relatedMatch envthes:30018, envthes:30021 .
+ecoss:var.46 skos:exactMatch envthes:75 .
+ecoss:var.46 skos:relatedMatch envthes:22039, envthes:21392, envthes:21399, envthes:21400, envthes:10091, envthes:21402, envthes:21394, envthes:21404, envthes:21405 .
+ecoss:var.47 skos:  .
+ecoss:var.48 skos:exactMatch envthes:10060 .
+ecoss:var.49 skos:relatedMatch envthes:21050 .
+ecoss:var.50 skos:  .
+ecoss:var.51 skos:relatedMatch envthes:22128, envthes:21478, envthes:21486, envthes:21489 .
+ecoss:var.52 skos:  .
+ecoss:var.53 skos:closeMatch envthes:30024 .
+ecoss:var.54 skos:  .
+ecoss:var.55 skos:relatedMatch envthes:21488 .
+ecoss:var.56 skos:  .
+ecoss:var.57 skos:  .
+ecoss:var.58 skos:  .
+ecoss:var.59 skos:broadMatch envthes:21050 .
+ecoss:var.60 skos:broadMatch envthes:21050 .
+ecoss:var.61 skos:broadMatch envthes:21050 .
+ecoss:var.62 skos:broadMatch envthes:21050 .
+ecoss:var.63 skos:exactMatch envthes:21421 .
+ecoss:var.63 skos:relatedMatch envthes:21420 .
+ecoss:var.64 skos:  .
+ecoss:var.65 skos:  .
+ecoss:var.66 skos:  .
+ecoss:var.67 skos:relatedMatch envthes:22163, envthes:10048 .
+ecoss:var.68 skos:  .
+ecoss:var.69 skos:  .
+ecoss:var.70 skos:relatedMatch envthes:21393 .
+ecoss:var.71 skos:  .
+ecoss:var.72 skos:relatedMatch envthes:21519 .
+ecoss:var.73 skos:  .
+ecoss:var.74 skos:closeMatch envthes:22107,  .
+ecoss:var.74 skos:narrowMatch envthes:10307, envthes:10125, envthes:22108, envthes:22136, envthes:22137, envthes:21457, envthes:22176, envthes:22177, envthes:10071, envthes:10072, envthes:10076, envthes:22061, envthes:10125, envthes:22108 .
+ecoss:var.75 skos:broadMatch envthes:20887 .
+ecoss:var.76 skos:relatedMatch envthes:22312 .
+ecoss:var.77 skos:relatedMatch envthes:20893 .
+ecoss:var.78 skos:exactMatch envthes:30172 .
+ecoss:var.78 skos:closeMatch envthes:22186 .
+ecoss:var.79 skos:exactMatch envthes:22180 .
+ecoss:var.80 skos:relatedMatch envthes:21519 .
+ecoss:var.81 skos:relatedMatch envthes:21519 .
+ecoss:var.82 skos:relatedMatch envthes:21519 .
+ecoss:var.83 skos:  .
+ecoss:var.84 skos:exactMatch envthes:21459 .
+ecoss:var.84 skos:closeMatch envthes:21218, envthes:22030 .
+ecoss:var.85 skos:exactMatch envthes:10159 .
+ecoss:var.86 skos:exactMatch envthes:22007 .
+ecoss:var.86 skos:closeMatch envthes:21323, envthes:21422 .
+ecoss:var.87 skos:broadMatch envthes:10018 .
+ecoss:var.88 skos:broadMatch envthes:21539 .
+ecoss:var.88 skos:broadMatch envthes:22198 .
+ecoss:var.89 skos:relatedMatch envthes:22059 .
+ecoss:var.90 skos:  .
+ecoss:var.91 skos:broadMatch envthes:22059 .
+ecoss:var.92 skos:broadMatch envthes:10018 .
+ecoss:var.93 skos:relatedMatch envthes:30018, envthes:30021 .
+ecoss:var.94 skos:broadMatch envthes:10018 .
+ecoss:var.95 skos:relatedMatch envthes:21563 .
+ecoss:var.96 skos:exactMatch envthes:21087 .
+ecoss:var.97 skos:  .
+ecoss:var.98 skos:  .
+ecoss:var.99 skos:exactMatch envthes:10312 .
+ecoss:var.99 skos:closeMatch envthes:10308 .
+ecoss:var.100 skos:  .
+ecoss:var.101 skos:exactMatch envthes:22227 .
+ecoss:var.102 skos:  .
+ecoss:var.103 skos:relatedMatch envthes:21432 .
+ecoss:var.104 skos:  .
+ecoss:var.105 skos:  .
+ecoss:var.106 skos:  .
+ecoss:var.107 skos:  .
+ecoss:var.108 skos:  .
+ecoss:var.109 skos:relatedMatch envthes:21508 .
+ecoss:var.110 skos:  .
+ecoss:var.111 skos:  .
+ecoss:var.112 skos:relatedMatch envthes:22128, envthes:21478, envthes:21486, envthes:21489 .
+ecoss:var.113 skos:relatedMatch envthes:22128, envthes:21478, envthes:21486, envthes:21489 .
+ecoss:var.114 skos:relatedMatch envthes:22128, envthes:21478, envthes:21486, envthes:21489 .
+ecoss:var.115 skos:relatedMatch envthes:22128, envthes:21478, envthes:21486, envthes:21489 .
+ecoss:var.116 skos:  .
+ecoss:var.117 skos:  .
+ecoss:var.118 skos:  .
+ecoss:var.119 skos:exactMatch envthes:21524 .
+ecoss:var.119 skos:closeMatch envthes:22313, envthes:22225 .
+ecoss:var.120 skos:  .
+ecoss:var.121 skos:relatedMatch envthes:22163, envthes:10048 .
+ecoss:var.122 skos:relatedMatch envthes:22163, envthes:10048 .
+ecoss:var.123 skos:relatedMatch envthes:22163, envthes:10048 .
+ecoss:var.124 skos:  .
+ecoss:var.125 skos:closeMatch envthes:30114, envthes:21217, .
+ecoss:var.126 skos:  .
+ecoss:var.127 skos:  .
+ecoss:var.128 skos:  .
+ecoss:var.129 skos:  .
+ecoss:var.130 skos:  .
+ecoss:var.131 skos:exactMatch envthes:30025 .
+ecoss:var.131 skos:closeMatch envthes:22310 .
+ecoss:var.132 skos:exactMatch envthes:22313 .
+ecoss:var.132 skos:closeMatch envthes:22225 .
+ecoss:var.133 skos:  .
+ecoss:var.134 skos:relatedMatch envthes:22317, envthes:22318, envthes:22319, envthes:22320 .
