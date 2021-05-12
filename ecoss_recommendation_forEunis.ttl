@@ -1,0 +1,294 @@
+PREFIX eunis_sites: <https://eunis.eea.europa.eu/sites/>
+PREFIX ecoss:<http://rdfdata.get-it.it/ecoss/>
+ecoss:var.1 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.1 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.1 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.1 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.10 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.100 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.100 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.101 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.101 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.101 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.102 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.102 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.103 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.103 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.104 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.104 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.105 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.106 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.107 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.107 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.108 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.108 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.108 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.109 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.109 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.109 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.109 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.11 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.11 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.11 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.110 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.110 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.111 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.111 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.111 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.111 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.112 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.113 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.113 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.113 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.114 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.114 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.114 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.115 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.116 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.116 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.116 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.117 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.117 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.117 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.118 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.118 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.118 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.119 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.119 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.119 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.119 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.12 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.12 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.12 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.120 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.120 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.121 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.122 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.122 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.123 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.124 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.124 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.124 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.125 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.125 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.126 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.126 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.126 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.127 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.128 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.129 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.129 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.13 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.13 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.130 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.131 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.132 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.132 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.132 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.133 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.133 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.133 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.134 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.14 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.14 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.14 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.15 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.15 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.15 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.16 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.16 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.17 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.17 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.18 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.18 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.19 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.19 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.19 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.2 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.2 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.20 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.21 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.22 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.22 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.23 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.23 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.24 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.24 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.24 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.24 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.25 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.25 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.25 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.25 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.26 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.26 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.26 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.26 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.27 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.27 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.28 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.29 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.29 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.29 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.3 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.3 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.30 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.30 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.30 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.31 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.31 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.31 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.31 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.32 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.32 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.33 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.33 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.33 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.34 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.34 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.34 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.35 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.35 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.36 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.36 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.36 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.36 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.37 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.38 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.38 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.38 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.38 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.39 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.39 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.4 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.4 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.4 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.4 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.40 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.40 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.41 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.42 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.43 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.43 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.43 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.44 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.44 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.44 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.45 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.45 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.45 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.46 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.46 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.46 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.46 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.47 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.47 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.48 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.48 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.49 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.5 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.5 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.50 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.51 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.51 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.51 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.52 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.52 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.53 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.53 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.54 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.54 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.55 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.55 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.55 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.56 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.56 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.56 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.57 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.57 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.58 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.58 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.59 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.59 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.6 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.60 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.60 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.61 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.62 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.63 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.63 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.64 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.65 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.65 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.65 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.66 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.67 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.68 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.69 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.7 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.70 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.70 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.71 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.72 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.72 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.73 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.73 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.73 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.74 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.74 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.74 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.75 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.75 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.75 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.76 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.76 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.77 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.77 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.78 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.78 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.79 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.79 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.8 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.8 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.80 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.80 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.81 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.81 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.81 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.82 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.82 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.83 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.83 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.84 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.84 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.85 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.85 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.85 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.86 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.87 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.88 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.89 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.9 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.90 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.91 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.92 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.92 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.92 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.93 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.93 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.94 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.94 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.94 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.95 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.95 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.95 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.96 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
+ecoss:var.96 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.96 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.96 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.97 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.98 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.98 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
+ecoss:var.99 ecoss:recommendedForSite eunis_sites:HR4000015 .
+ecoss:var.99 ecoss:recommendedForSite eunis_sites:IT3270023 .
+ecoss:var.99 ecoss:recommendedForSite eunis_sites:IT3330009, eunis_sites:IT3250047 .
