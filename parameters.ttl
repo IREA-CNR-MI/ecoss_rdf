@@ -1,219 +1,81 @@
-@prefix : <http://rdfdata.get-it.it/ecoss/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix sosa: <https://www.w3.org/TR/vocab-ssn/#> .
-
-:msfd_D5C1_1 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Dissolved Inorganic Nitrogen (DIN)'@en ; skos:related :msfd_D5C1 ; :contributesToEvaluate :msfd_D5C1 ; skos:inScheme :msfd .
-:msfd_D5C1_2 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Total Nitrogen (TN)'@en ; skos:related :msfd_D5C1 ; :contributesToEvaluate :msfd_D5C1 ; skos:inScheme :msfd .
-:msfd_D5C1_3 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Dissolved Inorganic Phosphorus (DIP)'@en ; skos:related :msfd_D5C1 ; :contributesToEvaluate :msfd_D5C1 ; skos:inScheme :msfd .
-:msfd_D5C1_4 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Total Phosphorus (TP) '@en ; skos:related :msfd_D5C1 ; :contributesToEvaluate :msfd_D5C1 ; skos:inScheme :msfd .
-:msfd_D5C2_5 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Chlorophyll a'@en ; skos:related :msfd_D5C2 ; :contributesToEvaluate :msfd_D5C2 ; skos:inScheme :msfd .
-:msfd_D5C2_6 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Phytoplankton bloom frequency'@en ; skos:related :msfd_D5C2 ; :contributesToEvaluate :msfd_D5C2 ; skos:inScheme :msfd .
-:msfd_D5C2_7 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Phytoplankton bloom extent'@en ; skos:related :msfd_D5C2 ; :contributesToEvaluate :msfd_D5C2 ; skos:inScheme :msfd .
-:msfd_D5C3_8 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Number of harmful algal blooms events'@en ; skos:related :msfd_D5C3 ; :contributesToEvaluate :msfd_D5C3 ; skos:inScheme :msfd .
-:msfd_D5C3_9 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Duration of harmful algal blooms events'@en ; skos:related :msfd_D5C3 ; :contributesToEvaluate :msfd_D5C3 ; skos:inScheme :msfd .
-:msfd_D5C3_10 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Spatial extent of harmful algal blooms events'@en ; skos:related :msfd_D5C3 ; :contributesToEvaluate :msfd_D5C3 ; skos:inScheme :msfd .
-:msfd_D5C4_11 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Transparency'@en ; skos:related :msfd_D5C4 ; :contributesToEvaluate :msfd_D5C4 ; skos:inScheme :msfd .
-:msfd_D5C4_12 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'salinity'@en ; skos:related :msfd_D5C4 ; :contributesToEvaluate :msfd_D5C4 ; skos:inScheme :msfd .
-:msfd_D5C4_13 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'turbidity'@en ; skos:related :msfd_D5C4 ; :contributesToEvaluate :msfd_D5C4 ; skos:inScheme :msfd .
-:msfd_D5C4_14 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'temperature'@en ; skos:related :msfd_D5C4 ; :contributesToEvaluate :msfd_D5C4 ; skos:inScheme :msfd .
-:msfd_D5C4_15 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'sound'@en ; skos:related :msfd_D5C4 ; :contributesToEvaluate :msfd_D5C4 ; skos:inScheme :msfd .
-:msfd_D5C5_16 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Dissolved oxygen'@en ; skos:related :msfd_D5C5 ; :contributesToEvaluate :msfd_D5C5 ; skos:inScheme :msfd .
-:msfd_D5C6_17 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Macroalgae species composition'@en ; skos:related :msfd_D5C6 ; :contributesToEvaluate :msfd_D5C6 ; skos:inScheme :msfd .
-:msfd_D5C6_18 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Macroalgae species abundance'@en ; skos:related :msfd_D5C6 ; :contributesToEvaluate :msfd_D5C6 ; skos:inScheme :msfd .
-:msfd_D5C6_19 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Macroalgae species biomass'@en ; skos:related :msfd_D5C6 ; :contributesToEvaluate :msfd_D5C6 ; skos:inScheme :msfd .
-:msfd_D5C6_20 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Size of macroalgae species'@en ; skos:related :msfd_D5C6 ; :contributesToEvaluate :msfd_D5C6 ; skos:inScheme :msfd .
-:msfd_D5C6_21 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Age structure of macroalgae species'@en ; skos:related :msfd_D5C6 ; :contributesToEvaluate :msfd_D5C6 ; skos:inScheme :msfd .
-:msfd_D5C7_22 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Macrophyte species composition'@en ; skos:related :msfd_D5C7 ; :contributesToEvaluate :msfd_D5C7 ; skos:inScheme :msfd .
-:msfd_D5C7_23 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Macrophyte abundance'@en ; skos:related :msfd_D5C7 ; :contributesToEvaluate :msfd_D5C7 ; skos:inScheme :msfd .
-:msfd_D5C7_24 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Macrophyte depth distribution'@en ; skos:related :msfd_D5C7 ; :contributesToEvaluate :msfd_D5C7 ; skos:inScheme :msfd .
-:msfd_D5C7_25 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'macrophyte species size structure'@en ; skos:related :msfd_D5C7 ; :contributesToEvaluate :msfd_D5C7 ; skos:inScheme :msfd .
-:msfd_D5C7_26 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'macrophyte species age structure'@en ; skos:related :msfd_D5C7 ; :contributesToEvaluate :msfd_D5C7 ; skos:inScheme :msfd .
-:msfd_D5C8_27 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Macrofaunal species composition'@en ; skos:related :msfd_D5C8 ; :contributesToEvaluate :msfd_D5C8 ; skos:inScheme :msfd .
-:msfd_D5C8_28 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Macrofaunal abundance'@en ; skos:related :msfd_D5C8 ; :contributesToEvaluate :msfd_D5C8 ; skos:inScheme :msfd .
-:msfd_D5C8_29 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Macrofaunal depth distribution'@en ; skos:related :msfd_D5C8 ; :contributesToEvaluate :msfd_D5C8 ; skos:inScheme :msfd .
-:msfd_D5C8_30 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'macrofaunal species size structure'@en ; skos:related :msfd_D5C8 ; :contributesToEvaluate :msfd_D5C8 ; skos:inScheme :msfd .
-:msfd_D5C8_31 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'macrofaunal species age structure'@en ; skos:related :msfd_D5C8 ; :contributesToEvaluate :msfd_D5C8 ; skos:inScheme :msfd .
-
-
-
-
-
-
-
-:msfd_D6C5_39 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Benthic habitat distribution'@en ; skos:related :msfd_D6C5 ; :contributesToEvaluate :msfd_D6C5 ; skos:inScheme :msfd .
-:msfd_D6C5_40 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Benthic habitat extent'@en ; skos:related :msfd_D6C5 ; :contributesToEvaluate :msfd_D6C5 ; skos:inScheme :msfd .
-:msfd_D6C5_41 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Benthic habitat volume'@en ; skos:related :msfd_D6C5 ; :contributesToEvaluate :msfd_D6C5 ; skos:inScheme :msfd .
-:msfd_D6C5_42 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Substrate type'@en ; skos:related :msfd_D6C5 ; :contributesToEvaluate :msfd_D6C5 ; skos:inScheme :msfd .
-:msfd_D6C5_43 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Substrate morphology'@en ; skos:related :msfd_D6C5 ; :contributesToEvaluate :msfd_D6C5 ; skos:inScheme :msfd .
-:msfd_D6C5_44 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Substrate bathymetry'@en ; skos:related :msfd_D6C5 ; :contributesToEvaluate :msfd_D6C5 ; skos:inScheme :msfd .
-:msfd_D6C5_45 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Substrate organic carbon'@en ; skos:related :msfd_D6C5 ; :contributesToEvaluate :msfd_D6C5 ; skos:inScheme :msfd .
-:msfd_D6C5_46 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Substrate oxygen levels'@en ; skos:related :msfd_D6C5 ; :contributesToEvaluate :msfd_D6C5 ; skos:inScheme :msfd .
-:msfd_D6C5_47 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Benthic species composition'@en ; skos:related :msfd_D6C5 ; :contributesToEvaluate :msfd_D6C5 ; skos:inScheme :msfd .
-:msfd_D6C5_48 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Benthic species abundance'@en ; skos:related :msfd_D6C5 ; :contributesToEvaluate :msfd_D6C5 ; skos:inScheme :msfd .
-:msfd_D6C5_49 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Benthic species biomass'@en ; skos:related :msfd_D6C5 ; :contributesToEvaluate :msfd_D6C5 ; skos:inScheme :msfd .
-:msfd_D6C5_50 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'benthic species size structure'@en ; skos:related :msfd_D6C5 ; :contributesToEvaluate :msfd_D6C5 ; skos:inScheme :msfd .
-:msfd_D6C5_51 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'benthic species age structure'@en ; skos:related :msfd_D6C5 ; :contributesToEvaluate :msfd_D6C5 ; skos:inScheme :msfd .
-:msfd_D7C1_52 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'temperature'@en ; skos:related :msfd_D7C1 ; :contributesToEvaluate :msfd_D7C1 ; skos:inScheme :msfd .
-:msfd_D7C1_53 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'salinity'@en ; skos:related :msfd_D7C1 ; :contributesToEvaluate :msfd_D7C1 ; skos:inScheme :msfd .
-:msfd_D7C1_54 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'turbidity'@en ; skos:related :msfd_D7C1 ; :contributesToEvaluate :msfd_D7C1 ; skos:inScheme :msfd .
-:msfd_D7C1_55 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'transparency'@en ; skos:related :msfd_D7C1 ; :contributesToEvaluate :msfd_D7C1 ; skos:inScheme :msfd .
-:msfd_D7C1_56 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'sound'@en ; skos:related :msfd_D7C1 ; :contributesToEvaluate :msfd_D7C1 ; skos:inScheme :msfd .
-:msfd_D7C1_57 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'wave regimes'@en ; skos:related :msfd_D7C1 ; :contributesToEvaluate :msfd_D7C1 ; skos:inScheme :msfd .
-:msfd_D7C1_58 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'current regimes'@en ; skos:related :msfd_D7C1 ; :contributesToEvaluate :msfd_D7C1 ; skos:inScheme :msfd .
-:msfd_D7C1_59 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'upwelling'@en ; skos:related :msfd_D7C1 ; :contributesToEvaluate :msfd_D7C1 ; skos:inScheme :msfd .
-:msfd_D7C1_60 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'mixing'@en ; skos:related :msfd_D7C1 ; :contributesToEvaluate :msfd_D7C1 ; skos:inScheme :msfd .
-:msfd_D7C1_61 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'residence time'@en ; skos:related :msfd_D7C1 ; :contributesToEvaluate :msfd_D7C1 ; skos:inScheme :msfd .
-:msfd_D7C1_62 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'freshwater input'@en ; skos:related :msfd_D7C1 ; :contributesToEvaluate :msfd_D7C1 ; skos:inScheme :msfd .
-:msfd_D7C1_63 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'sea level'@en ; skos:related :msfd_D7C1 ; :contributesToEvaluate :msfd_D7C1 ; skos:inScheme :msfd .
-:msfd_D7C2_64 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel '? '@en ; skos:related :msfd_D7C2 ; :contributesToEvaluate :msfd_D7C2 ; skos:inScheme :msfd .
-
-
-
-
-
-:msfd_D8C1_70 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Spatial Distribution/extent of contaminants'@en ; skos:related :msfd_D8C1 ; :contributesToEvaluate :msfd_D8C1 ; skos:inScheme :msfd .
-:msfd_D8C1_71 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'time Distribution/extent of contaminants'@en ; skos:related :msfd_D8C1 ; :contributesToEvaluate :msfd_D8C1 ; skos:inScheme :msfd .
-:msfd_D8C1_72 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'concentration of contaminants'@en ; skos:related :msfd_D8C1 ; :contributesToEvaluate :msfd_D8C1 ; skos:inScheme :msfd .
-:msfd_D8C2_73 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'risk from contaminants species composition'@en ; skos:related :msfd_D8C2 ; :contributesToEvaluate :msfd_D8C2 ; skos:inScheme :msfd .
-:msfd_D8C2_74 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'risk from contaminants species abundance'@en ; skos:related :msfd_D8C2 ; :contributesToEvaluate :msfd_D8C2 ; skos:inScheme :msfd .
-:msfd_D8C2_75 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'risk from contaminants species size structure'@en ; skos:related :msfd_D8C2 ; :contributesToEvaluate :msfd_D8C2 ; skos:inScheme :msfd .
-:msfd_D8C2_76 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'risk from contaminants species age structure'@en ; skos:related :msfd_D8C2 ; :contributesToEvaluate :msfd_D8C2 ; skos:inScheme :msfd .
-:msfd_D8C3_77 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Spatial extent of significant acute pollution events'@en ; skos:related :msfd_D8C3 ; :contributesToEvaluate :msfd_D8C3 ; skos:inScheme :msfd .
-:msfd_D8C3_78 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Duration of significant acute pollution events'@en ; skos:related :msfd_D8C3 ; :contributesToEvaluate :msfd_D8C3 ; skos:inScheme :msfd .
-:msfd_D8C4_79 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Species mortality rate '@en ; skos:related :msfd_D8C4 ; :contributesToEvaluate :msfd_D8C4 ; skos:inScheme :msfd .
-:msfd_D8C4_80 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Species injury rate'@en ; skos:related :msfd_D8C4 ; :contributesToEvaluate :msfd_D8C4 ; skos:inScheme :msfd .
-:msfd_D8C4_81 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Species composition'@en ; skos:related :msfd_D8C4 ; :contributesToEvaluate :msfd_D8C4 ; skos:inScheme :msfd .
-:msfd_D8C4_82 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Species aboundance'@en ; skos:related :msfd_D8C4 ; :contributesToEvaluate :msfd_D8C4 ; skos:inScheme :msfd .
-:msfd_D8C4_83 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Species biomass'@en ; skos:related :msfd_D8C4 ; :contributesToEvaluate :msfd_D8C4 ; skos:inScheme :msfd .
-:msfd_D8C4_84 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Species size structure'@en ; skos:related :msfd_D8C4 ; :contributesToEvaluate :msfd_D8C4 ; skos:inScheme :msfd .
-:msfd_D8C4_85 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Species age structure'@en ; skos:related :msfd_D8C4 ; :contributesToEvaluate :msfd_D8C4 ; skos:inScheme :msfd .
-
-:msfd_D10C1_87 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'composition of litter'@en ; skos:related :msfd_D10C1 ; :contributesToEvaluate :msfd_D10C1 ; skos:inScheme :msfd .
-:msfd_D10C1_88 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'amount of litter'@en ; skos:related :msfd_D10C1 ; :contributesToEvaluate :msfd_D10C1 ; skos:inScheme :msfd .
-:msfd_D10C1_89 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'spatial distribution of litter'@en ; skos:related :msfd_D10C1 ; :contributesToEvaluate :msfd_D10C1 ; skos:inScheme :msfd .
-:msfd_D10C1_90 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Phytoplankton bloom frequency'@en ; skos:related :msfd_D10C1 ; :contributesToEvaluate :msfd_D10C1 ; skos:inScheme :msfd .
-:msfd_D10C1_91 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Phytoplankton bloom extent'@en ; skos:related :msfd_D10C1 ; :contributesToEvaluate :msfd_D10C1 ; skos:inScheme :msfd .
-:msfd_D10C2_92 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'composition of micro-litter'@en ; skos:related :msfd_D10C2 ; :contributesToEvaluate :msfd_D10C2 ; skos:inScheme :msfd .
-:msfd_D10C2_93 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'amount of micro-litter'@en ; skos:related :msfd_D10C2 ; :contributesToEvaluate :msfd_D10C2 ; skos:inScheme :msfd .
-:msfd_D10C2_94 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'spatial distribution of micro-litter'@en ; skos:related :msfd_D10C2 ; :contributesToEvaluate :msfd_D10C2 ; skos:inScheme :msfd .
-:msfd_D10C2_95 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Chlorophyll a'@en ; skos:related :msfd_D10C2 ; :contributesToEvaluate :msfd_D10C2 ; skos:inScheme :msfd .
-:msfd_D10C2_96 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Phytoplankton bloom frequency'@en ; skos:related :msfd_D10C2 ; :contributesToEvaluate :msfd_D10C2 ; skos:inScheme :msfd .
-:msfd_D10C2_97 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Phytoplankton bloom extent'@en ; skos:related :msfd_D10C2 ; :contributesToEvaluate :msfd_D10C2 ; skos:inScheme :msfd .
-:msfd_D10C3_98 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'amount of litter'@en ; skos:related :msfd_D10C3 ; :contributesToEvaluate :msfd_D10C3 ; skos:inScheme :msfd .
-:msfd_D10C3_99 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'amount of micro-litter'@en ; skos:related :msfd_D10C3 ; :contributesToEvaluate :msfd_D10C3 ; skos:inScheme :msfd .
-:msfd_D10C3_100 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Chlorophyll a'@en ; skos:related :msfd_D10C3 ; :contributesToEvaluate :msfd_D10C3 ; skos:inScheme :msfd .
-:msfd_D10C3_101 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Phytoplankton bloom frequency'@en ; skos:related :msfd_D10C3 ; :contributesToEvaluate :msfd_D10C3 ; skos:inScheme :msfd .
-:msfd_D10C3_102 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Phytoplankton bloom extent'@en ; skos:related :msfd_D10C3 ; :contributesToEvaluate :msfd_D10C3 ; skos:inScheme :msfd .
-:msfd_D10C4_103 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Mortality rate of anthropogenetic activities'@en ; skos:related :msfd_D10C4 ; :contributesToEvaluate :msfd_D10C4 ; skos:inScheme :msfd .
-:msfd_D10C4_104 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Injury rate of anthropogenetic activities'@en ; skos:related :msfd_D10C4 ; :contributesToEvaluate :msfd_D10C4 ; skos:inScheme :msfd .
-:msfd_D1C1_105 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Mortality rate of anthropogenetic activities'@en ; skos:related :msfd_D1C1 ; :contributesToEvaluate :msfd_D1C1 ; skos:inScheme :msfd .
-:msfd_D1C1_106 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Injury rate of anthropogenetic activities'@en ; skos:related :msfd_D1C1 ; :contributesToEvaluate :msfd_D1C1 ; skos:inScheme :msfd .
-:msfd_D1C2_107 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Representative species composition'@en ; skos:related :msfd_D1C2 ; :contributesToEvaluate :msfd_D1C2 ; skos:inScheme :msfd .
-:msfd_D1C2_108 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Representative species abundance'@en ; skos:related :msfd_D1C2 ; :contributesToEvaluate :msfd_D1C2 ; skos:inScheme :msfd .
-:msfd_D1C2_109 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Representative species distribution'@en ; skos:related :msfd_D1C2 ; :contributesToEvaluate :msfd_D1C2 ; skos:inScheme :msfd .
-:msfd_D1C2_110 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Representative species mortality rate'@en ; skos:related :msfd_D1C2 ; :contributesToEvaluate :msfd_D1C2 ; skos:inScheme :msfd .
-:msfd_D1C2_111 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Representative species injury rate'@en ; skos:related :msfd_D1C2 ; :contributesToEvaluate :msfd_D1C2 ; skos:inScheme :msfd .
-:msfd_D1C3_112 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Representative species size structure'@en ; skos:related :msfd_D1C3 ; :contributesToEvaluate :msfd_D1C3 ; skos:inScheme :msfd .
-:msfd_D1C3_113 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Representative species age structure'@en ; skos:related :msfd_D1C3 ; :contributesToEvaluate :msfd_D1C3 ; skos:inScheme :msfd .
-:msfd_D1C3_114 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Representative species sex structure'@en ; skos:related :msfd_D1C3 ; :contributesToEvaluate :msfd_D1C3 ; skos:inScheme :msfd .
-:msfd_D1C3_115 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Representative species injury rate'@en ; skos:related :msfd_D1C3 ; :contributesToEvaluate :msfd_D1C3 ; skos:inScheme :msfd .
-:msfd_D1C3_116 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Representative species survival rate'@en ; skos:related :msfd_D1C3 ; :contributesToEvaluate :msfd_D1C3 ; skos:inScheme :msfd .
-:msfd_D1C3_117 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Representative species mortality rate'@en ; skos:related :msfd_D1C3 ; :contributesToEvaluate :msfd_D1C3 ; skos:inScheme :msfd .
-:msfd_D1C3_118 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Representative species fecundity rate'@en ; skos:related :msfd_D1C3 ; :contributesToEvaluate :msfd_D1C3 ; skos:inScheme :msfd .
-
-:msfd_D1C4_120 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Representative species composition'@en ; skos:related :msfd_D1C4 ; :contributesToEvaluate :msfd_D1C4 ; skos:inScheme :msfd .
-:msfd_D1C4_121 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Representative species abundance'@en ; skos:related :msfd_D1C4 ; :contributesToEvaluate :msfd_D1C4 ; skos:inScheme :msfd .
-:msfd_D1C4_122 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Representative species distribution'@en ; skos:related :msfd_D1C4 ; :contributesToEvaluate :msfd_D1C4 ; skos:inScheme :msfd .
-:msfd_D1C5_123 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Representative species composition'@en ; skos:related :msfd_D1C5 ; :contributesToEvaluate :msfd_D1C5 ; skos:inScheme :msfd .
-:msfd_D1C5_124 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Representative species abundance'@en ; skos:related :msfd_D1C5 ; :contributesToEvaluate :msfd_D1C5 ; skos:inScheme :msfd .
-:msfd_D1C5_125 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Representative species distribution'@en ; skos:related :msfd_D1C5 ; :contributesToEvaluate :msfd_D1C5 ; skos:inScheme :msfd .
-:msfd_D1C6_126 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'temperature'@en ; skos:related :msfd_D1C6 ; :contributesToEvaluate :msfd_D1C6 ; skos:inScheme :msfd .
-:msfd_D1C6_127 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'salinity'@en ; skos:related :msfd_D1C6 ; :contributesToEvaluate :msfd_D1C6 ; skos:inScheme :msfd .
-:msfd_D1C6_128 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'turbidity'@en ; skos:related :msfd_D1C6 ; :contributesToEvaluate :msfd_D1C6 ; skos:inScheme :msfd .
-:msfd_D1C6_129 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'transparency'@en ; skos:related :msfd_D1C6 ; :contributesToEvaluate :msfd_D1C6 ; skos:inScheme :msfd .
-:msfd_D1C6_130 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'sound'@en ; skos:related :msfd_D1C6 ; :contributesToEvaluate :msfd_D1C6 ; skos:inScheme :msfd .
-:msfd_D1C6_131 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'wave regimes'@en ; skos:related :msfd_D1C6 ; :contributesToEvaluate :msfd_D1C6 ; skos:inScheme :msfd .
-:msfd_D1C6_132 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'current regimes'@en ; skos:related :msfd_D1C6 ; :contributesToEvaluate :msfd_D1C6 ; skos:inScheme :msfd .
-:msfd_D1C6_133 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'upwelling'@en ; skos:related :msfd_D1C6 ; :contributesToEvaluate :msfd_D1C6 ; skos:inScheme :msfd .
-:msfd_D1C6_134 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'mixing'@en ; skos:related :msfd_D1C6 ; :contributesToEvaluate :msfd_D1C6 ; skos:inScheme :msfd .
-:msfd_D1C6_135 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'residence time'@en ; skos:related :msfd_D1C6 ; :contributesToEvaluate :msfd_D1C6 ; skos:inScheme :msfd .
-:msfd_D1C6_136 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Dissolved Inorganic Nitrogen (DIN)'@en ; skos:related :msfd_D1C6 ; :contributesToEvaluate :msfd_D1C6 ; skos:inScheme :msfd .
-:msfd_D1C6_137 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Total Nitrogen (TN)'@en ; skos:related :msfd_D1C6 ; :contributesToEvaluate :msfd_D1C6 ; skos:inScheme :msfd .
-:msfd_D1C6_138 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Dissolved Inorganic Phosphorus (DIP)'@en ; skos:related :msfd_D1C6 ; :contributesToEvaluate :msfd_D1C6 ; skos:inScheme :msfd .
-:msfd_D1C6_139 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Total Phosphorus (TP) '@en ; skos:related :msfd_D1C6 ; :contributesToEvaluate :msfd_D1C6 ; skos:inScheme :msfd .
-:msfd_D1C6_140 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'pH'@en ; skos:related :msfd_D1C6 ; :contributesToEvaluate :msfd_D1C6 ; skos:inScheme :msfd .
-:msfd_D1C6_141 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'pCO2'@en ; skos:related :msfd_D1C6 ; :contributesToEvaluate :msfd_D1C6 ; skos:inScheme :msfd .
-:msfd_D1C6_142 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Species composition'@en ; skos:related :msfd_D1C6 ; :contributesToEvaluate :msfd_D1C6 ; skos:inScheme :msfd .
-:msfd_D1C6_143 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Species aboundance'@en ; skos:related :msfd_D1C6 ; :contributesToEvaluate :msfd_D1C6 ; skos:inScheme :msfd .
-:msfd_D1C6_144 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Species biomass'@en ; skos:related :msfd_D1C6 ; :contributesToEvaluate :msfd_D1C6 ; skos:inScheme :msfd .
-:msfd_D2C1_145 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Newly-introduced non-indigenous species (NIS) abundance'@en ; skos:related :msfd_D2C1 ; :contributesToEvaluate :msfd_D2C1 ; skos:inScheme :msfd .
-:msfd_D2C1_146 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Newly-introduced NIS distribution'@en ; skos:related :msfd_D2C1 ; :contributesToEvaluate :msfd_D2C1 ; skos:inScheme :msfd .
-:msfd_D2C2_147 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Established NIS composition'@en ; skos:related :msfd_D2C2 ; :contributesToEvaluate :msfd_D2C2 ; skos:inScheme :msfd .
-:msfd_D2C2_148 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Established NIS abundance'@en ; skos:related :msfd_D2C2 ; :contributesToEvaluate :msfd_D2C2 ; skos:inScheme :msfd .
-:msfd_D2C2_149 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Established NIS distribution'@en ; skos:related :msfd_D2C2 ; :contributesToEvaluate :msfd_D2C2 ; skos:inScheme :msfd .
-:msfd_D2C2_150 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Number of plankton blooms events'@en ; skos:related :msfd_D2C2 ; :contributesToEvaluate :msfd_D2C2 ; skos:inScheme :msfd .
-:msfd_D2C2_151 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Duration of plankton blooms events'@en ; skos:related :msfd_D2C2 ; :contributesToEvaluate :msfd_D2C2 ; skos:inScheme :msfd .
-:msfd_D2C2_152 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Spatial extent of plankton blooms events'@en ; skos:related :msfd_D2C2 ; :contributesToEvaluate :msfd_D2C2 ; skos:inScheme :msfd .
-:msfd_D2C2_153 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Chlorophyll-a'@en ; skos:related :msfd_D2C2 ; :contributesToEvaluate :msfd_D2C2 ; skos:inScheme :msfd .
-:msfd_D2C2_154 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Phytoplankton boom frequency'@en ; skos:related :msfd_D2C2 ; :contributesToEvaluate :msfd_D2C2 ; skos:inScheme :msfd .
-:msfd_D2C2_155 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Phytoplankton bloom extent'@en ; skos:related :msfd_D2C2 ; :contributesToEvaluate :msfd_D2C2 ; skos:inScheme :msfd .
-:msfd_D2C3_156 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Species composition'@en ; skos:related :msfd_D2C3 ; :contributesToEvaluate :msfd_D2C3 ; skos:inScheme :msfd .
-:msfd_D2C3_157 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Species abundance'@en ; skos:related :msfd_D2C3 ; :contributesToEvaluate :msfd_D2C3 ; skos:inScheme :msfd .
-:msfd_D2C3_158 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'species biomass'@en ; skos:related :msfd_D2C3 ; :contributesToEvaluate :msfd_D2C3 ; skos:inScheme :msfd .
-:msfd_D2C3_159 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Species size structure'@en ; skos:related :msfd_D2C3 ; :contributesToEvaluate :msfd_D2C3 ; skos:inScheme :msfd .
-:msfd_D2C3_160 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Species age structure'@en ; skos:related :msfd_D2C3 ; :contributesToEvaluate :msfd_D2C3 ; skos:inScheme :msfd .
-:msfd_D3C1_161 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'commercially-exploited species mortality rate '@en ; skos:related :msfd_D3C1 ; :contributesToEvaluate :msfd_D3C1 ; skos:inScheme :msfd .
-:msfd_D3C1_162 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'commercially-exploited species injury rate'@en ; skos:related :msfd_D3C1 ; :contributesToEvaluate :msfd_D3C1 ; skos:inScheme :msfd .
-:msfd_D3C2_163 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'commercially-exploited species composition'@en ; skos:related :msfd_D3C2 ; :contributesToEvaluate :msfd_D3C2 ; skos:inScheme :msfd .
-:msfd_D3C2_164 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'commercially-exploited species abundance'@en ; skos:related :msfd_D3C2 ; :contributesToEvaluate :msfd_D3C2 ; skos:inScheme :msfd .
-:msfd_D3C2_165 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'commercially-exploited species biomass'@en ; skos:related :msfd_D3C2 ; :contributesToEvaluate :msfd_D3C2 ; skos:inScheme :msfd .
-:msfd_D3C2_166 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'commercially-exploited species size structure'@en ; skos:related :msfd_D3C2 ; :contributesToEvaluate :msfd_D3C2 ; skos:inScheme :msfd .
-:msfd_D3C2_167 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'commercially-exploited species age structure'@en ; skos:related :msfd_D3C2 ; :contributesToEvaluate :msfd_D3C2 ; skos:inScheme :msfd .
-:msfd_D3C3_168 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'commercially-exploited population age'@en ; skos:related :msfd_D3C3 ; :contributesToEvaluate :msfd_D3C3 ; skos:inScheme :msfd .
-:msfd_D3C3_169 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'commercially-exploited population size'@en ; skos:related :msfd_D3C3 ; :contributesToEvaluate :msfd_D3C3 ; skos:inScheme :msfd .
-:msfd_D3C3_170 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'commercially-exploited population sex structure'@en ; skos:related :msfd_D3C3 ; :contributesToEvaluate :msfd_D3C3 ; skos:inScheme :msfd .
-:msfd_D3C3_171 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'commercially-exploited population fecundity'@en ; skos:related :msfd_D3C3 ; :contributesToEvaluate :msfd_D3C3 ; skos:inScheme :msfd .
-:msfd_D3C3_172 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'commercially-exploited population survival'@en ; skos:related :msfd_D3C3 ; :contributesToEvaluate :msfd_D3C3 ; skos:inScheme :msfd .
-:msfd_D3C3_173 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'commercially-exploited population mortality/ingury rates'@en ; skos:related :msfd_D3C3 ; :contributesToEvaluate :msfd_D3C3 ; skos:inScheme :msfd .
-:msfd_D3C3_174 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'commercially-exploited species composition'@en ; skos:related :msfd_D3C3 ; :contributesToEvaluate :msfd_D3C3 ; skos:inScheme :msfd .
-:msfd_D3C3_175 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'commercially-exploited species abundance'@en ; skos:related :msfd_D3C3 ; :contributesToEvaluate :msfd_D3C3 ; skos:inScheme :msfd .
-:msfd_D3C3_176 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'commercially-exploited species biomass'@en ; skos:related :msfd_D3C3 ; :contributesToEvaluate :msfd_D3C3 ; skos:inScheme :msfd .
-:msfd_D3C3_177 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'commercially-exploited species size structure'@en ; skos:related :msfd_D3C3 ; :contributesToEvaluate :msfd_D3C3 ; skos:inScheme :msfd .
-:msfd_D3C3_178 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'commercially-exploited species age structure'@en ; skos:related :msfd_D3C3 ; :contributesToEvaluate :msfd_D3C3 ; skos:inScheme :msfd .
-:msfd_D4C1_179 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Trophic guild group composition'@en ; skos:related :msfd_D4C1 ; :contributesToEvaluate :msfd_D4C1 ; skos:inScheme :msfd .
-:msfd_D4C1_180 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Trophic guild species abundance'@en ; skos:related :msfd_D4C1 ; :contributesToEvaluate :msfd_D4C1 ; skos:inScheme :msfd .
-:msfd_D4C1_181 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Trophic guild species distribution'@en ; skos:related :msfd_D4C1 ; :contributesToEvaluate :msfd_D4C1 ; skos:inScheme :msfd .
-:msfd_D4C1_182 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Trophic guild species composition'@en ; skos:related :msfd_D4C1 ; :contributesToEvaluate :msfd_D4C1 ; skos:inScheme :msfd .
-:msfd_D4C1_183 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Trophic guild species biomass'@en ; skos:related :msfd_D4C1 ; :contributesToEvaluate :msfd_D4C1 ; skos:inScheme :msfd .
-:msfd_D4C1_184 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Trophic guild species size structure'@en ; skos:related :msfd_D4C1 ; :contributesToEvaluate :msfd_D4C1 ; skos:inScheme :msfd .
-:msfd_D4C1_185 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Trophic guild species age structure'@en ; skos:related :msfd_D4C1 ; :contributesToEvaluate :msfd_D4C1 ; skos:inScheme :msfd .
-:msfd_D4C2_186 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Trophic guild group composition'@en ; skos:related :msfd_D4C2 ; :contributesToEvaluate :msfd_D4C2 ; skos:inScheme :msfd .
-:msfd_D4C2_187 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Trophic guild species abundance'@en ; skos:related :msfd_D4C2 ; :contributesToEvaluate :msfd_D4C2 ; skos:inScheme :msfd .
-:msfd_D4C2_188 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Trophic guild species distribution'@en ; skos:related :msfd_D4C2 ; :contributesToEvaluate :msfd_D4C2 ; skos:inScheme :msfd .
-:msfd_D4C3_189 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'trophic guild species age'@en ; skos:related :msfd_D4C3 ; :contributesToEvaluate :msfd_D4C3 ; skos:inScheme :msfd .
-:msfd_D4C3_190 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'trophic guild species size'@en ; skos:related :msfd_D4C3 ; :contributesToEvaluate :msfd_D4C3 ; skos:inScheme :msfd .
-:msfd_D4C3_191 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'trophic guild species sex structure'@en ; skos:related :msfd_D4C3 ; :contributesToEvaluate :msfd_D4C3 ; skos:inScheme :msfd .
-:msfd_D4C3_192 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'trophic guild species fecundity'@en ; skos:related :msfd_D4C3 ; :contributesToEvaluate :msfd_D4C3 ; skos:inScheme :msfd .
-:msfd_D4C3_193 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'trophic guild species survival'@en ; skos:related :msfd_D4C3 ; :contributesToEvaluate :msfd_D4C3 ; skos:inScheme :msfd .
-:msfd_D4C3_194 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'trophic guild species mortality/ingury rates'@en ; skos:related :msfd_D4C3 ; :contributesToEvaluate :msfd_D4C3 ; skos:inScheme :msfd .
-:msfd_D4C3_195 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'trophic guild species composition'@en ; skos:related :msfd_D4C3 ; :contributesToEvaluate :msfd_D4C3 ; skos:inScheme :msfd .
-:msfd_D4C3_196 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'trophic guild species abundance'@en ; skos:related :msfd_D4C3 ; :contributesToEvaluate :msfd_D4C3 ; skos:inScheme :msfd .
-:msfd_D4C3_197 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'trophic guild species biomass'@en ; skos:related :msfd_D4C3 ; :contributesToEvaluate :msfd_D4C3 ; skos:inScheme :msfd .
-:msfd_D4C3_198 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'trophic guild species size structure'@en ; skos:related :msfd_D4C3 ; :contributesToEvaluate :msfd_D4C3 ; skos:inScheme :msfd .
-:msfd_D4C3_199 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'trophic guild species age structure'@en ; skos:related :msfd_D4C3 ; :contributesToEvaluate :msfd_D4C3 ; skos:inScheme :msfd .
-:msfd_D4C4_200 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'trophic guild species age'@en ; skos:related :msfd_D4C4 ; :contributesToEvaluate :msfd_D4C4 ; skos:inScheme :msfd .
-:msfd_D4C4_201 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'trophic guild species size'@en ; skos:related :msfd_D4C4 ; :contributesToEvaluate :msfd_D4C4 ; skos:inScheme :msfd .
-:msfd_D4C4_202 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'trophic guild species sex structure'@en ; skos:related :msfd_D4C4 ; :contributesToEvaluate :msfd_D4C4 ; skos:inScheme :msfd .
-:msfd_D4C4_203 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'trophic guild species fecundity'@en ; skos:related :msfd_D4C4 ; :contributesToEvaluate :msfd_D4C4 ; skos:inScheme :msfd .
-:msfd_D4C4_204 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'trophic guild species survival'@en ; skos:related :msfd_D4C4 ; :contributesToEvaluate :msfd_D4C4 ; skos:inScheme :msfd .
-:msfd_D4C4_205 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'trophic guild species mortality/ingury rates'@en ; skos:related :msfd_D4C4 ; :contributesToEvaluate :msfd_D4C4 ; skos:inScheme :msfd .
-:msfd_D4C4_206 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Chlorophyll a'@en ; skos:related :msfd_D4C4 ; :contributesToEvaluate :msfd_D4C4 ; skos:inScheme :msfd .
-:msfd_D4C4_207 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Phytoplankton bloom frequency'@en ; skos:related :msfd_D4C4 ; :contributesToEvaluate :msfd_D4C4 ; skos:inScheme :msfd .
-:msfd_D4C4_208 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Phytoplankton bloom extent'@en ; skos:related :msfd_D4C4 ; :contributesToEvaluate :msfd_D4C4 ; skos:inScheme :msfd .
-:msfd_D11C1_209 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Spatial distribution of anthropogenic impulsive sound sources'@en ; skos:related :msfd_D11C1 ; :contributesToEvaluate :msfd_D11C1 ; skos:inScheme :msfd .
-:msfd_D11C1_210 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Temporal extent of anthropogenic impulsive sound sources'@en ; skos:related :msfd_D11C1 ; :contributesToEvaluate :msfd_D11C1 ; skos:inScheme :msfd .
-:msfd_D11C1_211 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Levels of anthropogenic impulsive sound sources'@en ; skos:related :msfd_D11C1 ; :contributesToEvaluate :msfd_D11C1 ; skos:inScheme :msfd .
-:msfd_D11C2_212 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Spatial distribution of anthropogenic continuous low-frequency sound '@en ; skos:related :msfd_D11C2 ; :contributesToEvaluate :msfd_D11C2 ; skos:inScheme :msfd .
-:msfd_D11C2_213 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Temporal extent of anthropogenic continuous low-frequency sound '@en ; skos:related :msfd_D11C2 ; :contributesToEvaluate :msfd_D11C2 ; skos:inScheme :msfd .
-:msfd_D11C2_214 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel 'Levels of anthropogenic continuous low-frequency sound '@en ; skos:related :msfd_D11C2 ; :contributesToEvaluate :msfd_D11C2 ; skos:inScheme :msfd .
+PREFIX sosa: <https://www.w3.org/TR/vocab-ssn/#>
+PREFIX ecoss: <http://rdfdata.get-it.it/ecoss/> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+ecoss:msfd_param.1 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Representative species age structure"@en ; skos:related ecoss:msfd_D1C3 ; :contributesToEvaluate ecoss:msfd_D1C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.2 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Amount of litter"@en ; skos:related ecoss:msfd_D10C1 ; :contributesToEvaluate ecoss:msfd_D10C1 ; skos:inScheme :msfd .
+ecoss:msfd_param.3 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Amount of litter ingested by marine animals"@en ; skos:related ecoss:msfd_D10C3 ; :contributesToEvaluate ecoss:msfd_D10C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.4 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Amount of micro-litter"@en ; skos:related ecoss:msfd_D10C2 ; :contributesToEvaluate ecoss:msfd_D10C2 ; skos:inScheme :msfd .
+ecoss:msfd_param.5 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Amount of micro-litter ingested by marine animals"@en ; skos:related ecoss:msfd_D10C3 ; :contributesToEvaluate ecoss:msfd_D10C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.6 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Benthic habitat distribution"@en ; skos:related ecoss:msfd_D6C5 ; :contributesToEvaluate ecoss:msfd_D6C5 ; skos:inScheme :msfd .
+ecoss:msfd_param.7 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Benthic habitat extent"@en ; skos:related ecoss:msfd_D6C5 ; :contributesToEvaluate ecoss:msfd_D6C5 ; skos:inScheme :msfd .
+ecoss:msfd_param.8 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Benthic habitat volume"@en ; skos:related ecoss:msfd_D6C5 ; :contributesToEvaluate ecoss:msfd_D6C5 ; skos:inScheme :msfd .
+ecoss:msfd_param.9 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Benthic species abundance"@en ; skos:related ecoss:msfd_D6C5 ; :contributesToEvaluate ecoss:msfd_D6C5 ; skos:inScheme :msfd .
+ecoss:msfd_param.10 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Benthic species age structure"@en ; skos:related ecoss:msfd_D6C5 ; :contributesToEvaluate ecoss:msfd_D6C5 ; skos:inScheme :msfd .
+ecoss:msfd_param.11 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Benthic species biomass"@en ; skos:related ecoss:msfd_D6C5 ; :contributesToEvaluate ecoss:msfd_D6C5 ; skos:inScheme :msfd .
+ecoss:msfd_param.12 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Benthic species composition"@en ; skos:related ecoss:msfd_D6C5 ; :contributesToEvaluate ecoss:msfd_D6C5 ; skos:inScheme :msfd .
+ecoss:msfd_param.13 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Benthic species coverage"@en ; skos:related ecoss:msfd_D6C5 ; :contributesToEvaluate ecoss:msfd_D6C5 ; skos:inScheme :msfd .
+ecoss:msfd_param.14 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Benthic species coverage of seabed"@en ; skos:related ecoss:msfd_D6C5 ; :contributesToEvaluate ecoss:msfd_D6C5 ; skos:inScheme :msfd .
+ecoss:msfd_param.15 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Benthic species size structure"@en ; skos:related ecoss:msfd_D6C5 ; :contributesToEvaluate ecoss:msfd_D6C5 ; skos:inScheme :msfd .
+ecoss:msfd_param.16 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "commercially-exploited population fecundity"@en ; skos:related ecoss:msfd_D3C3 ; :contributesToEvaluate ecoss:msfd_D3C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.17 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "commercially-exploited population fecundity"@en ; skos:related ecoss:msfd_D3C3 ; :contributesToEvaluate ecoss:msfd_D3C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.18 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "commercially-exploited population mortality/ingury rates"@en ; skos:related ecoss:msfd_D1C3 ; :contributesToEvaluate ecoss:msfd_D1C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.19 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "commercially-exploited population survival"@en ; skos:related ecoss:msfd_D3C3 ; :contributesToEvaluate ecoss:msfd_D3C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.20 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "commercially-exploited species abundance"@en ; skos:related ecoss:msfd_D3C3 ; :contributesToEvaluate ecoss:msfd_D3C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.21 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "commercially-exploited species age structure"@en ; skos:related ecoss:msfd_D3C3 ; :contributesToEvaluate ecoss:msfd_D3C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.22 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "commercially-exploited species biomass"@en ; skos:related ecoss:msfd_D3C3 ; :contributesToEvaluate ecoss:msfd_D3C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.23 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "commercially-exploited species mortality rate"@en ; skos:related ecoss:msfd_D3C1 ; :contributesToEvaluate ecoss:msfd_D3C1 ; skos:inScheme :msfd .
+ecoss:msfd_param.24 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "commercially-exploited species size structure"@en ; skos:related ecoss:msfd_D3C3 ; :contributesToEvaluate ecoss:msfd_D3C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.25 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Composition of litter"@en ; skos:related ecoss:msfd_D10C1 ; :contributesToEvaluate ecoss:msfd_D10C1 ; skos:inScheme :msfd .
+ecoss:msfd_param.26 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Composition of micro-litter"@en ; skos:related ecoss:msfd_D10C2 ; :contributesToEvaluate ecoss:msfd_D10C2 ; skos:inScheme :msfd .
+ecoss:msfd_param.27 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "concentration of contaminants"@en ; skos:related ecoss:msfd_D8C1 ; :contributesToEvaluate ecoss:msfd_D8C1 ; skos:inScheme :msfd .
+ecoss:msfd_param.28 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "current regime"@en ; skos:related ecoss:msfd_D1C6 ; :contributesToEvaluate ecoss:msfd_D1C6 ; skos:inScheme :msfd .
+ecoss:msfd_param.29 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Dissolved oxygen"@en ; skos:related ecoss:msfd_D5C5, ecoss:msfd_D6C3, ecoss:msfd_D6C5, ecoss:msfd_D7C2 ; :contributesToEvaluate ecoss:msfd_D5C5, ecoss:msfd_D6C3, ecoss:msfd_D6C5, ecoss:msfd_D7C2 ; skos:inScheme :msfd .
+ecoss:msfd_param.30 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Distribution of permanent alteration of hydrographical conditions to the seabed and water column"@en ; skos:related ecoss:msfd_D7C1 ; :contributesToEvaluate ecoss:msfd_D7C1 ; skos:inScheme :msfd .
+ecoss:msfd_param.31 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Distribution of physical disturbance pressures"@en ; skos:related ecoss:msfd_D6C2 ; :contributesToEvaluate ecoss:msfd_D6C2 ; skos:inScheme :msfd .
+ecoss:msfd_param.32 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Duration of harmful algal blooms events"@en ; skos:related ecoss:msfd_D5C3 ; :contributesToEvaluate ecoss:msfd_D5C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.33 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Duration of significant acute pollution events"@en ; skos:related ecoss:msfd_D8C3 ; :contributesToEvaluate ecoss:msfd_D8C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.34 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Effects of significant acute pollution events on the condition of habitats"@en ; skos:related ecoss:msfd_D8C4 ; :contributesToEvaluate ecoss:msfd_D8C4 ; skos:inScheme :msfd .
+ecoss:msfd_param.35 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Effects of significant acute pollution events on the health of species"@en ; skos:related ecoss:msfd_D8C4 ; :contributesToEvaluate ecoss:msfd_D8C4 ; skos:inScheme :msfd .
+ecoss:msfd_param.36 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Established NIS abundance"@en ; skos:related ecoss:msfd_D2C2 ; :contributesToEvaluate ecoss:msfd_D2C2 ; skos:inScheme :msfd .
+ecoss:msfd_param.37 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Established NIS composition"@en ; skos:related ecoss:msfd_D2C2 ; :contributesToEvaluate ecoss:msfd_D2C2 ; skos:inScheme :msfd .
+ecoss:msfd_param.38 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Injury rate from anthropogenic activities"@en ; skos:related ecoss:msfd_D10C4 ; :contributesToEvaluate ecoss:msfd_D10C4 ; skos:inScheme :msfd .
+ecoss:msfd_param.39 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "level of contaminants in edible tissues"@en ; skos:related ecoss:msfd_D9C1 ; :contributesToEvaluate ecoss:msfd_D9C1 ; skos:inScheme :msfd .
+ecoss:msfd_param.40 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Levels of anthropogenic impulsive sound sources"@en ; skos:related ecoss:msfd_D11C1,D11C2 ; :contributesToEvaluate ecoss:msfd_D11C1,D11C2 ; skos:inScheme :msfd .
+ecoss:msfd_param.41 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Macrophyte abundance"@en ; skos:related ecoss:msfd_D5C7 ; :contributesToEvaluate ecoss:msfd_D5C7 ; skos:inScheme :msfd .
+ecoss:msfd_param.42 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Macrophyte depth distribution"@en ; skos:related ecoss:msfd_D5C7 ; :contributesToEvaluate ecoss:msfd_D5C7 ; skos:inScheme :msfd .
+ecoss:msfd_param.43 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Migration"@en ; skos:related ecoss:msfd_D1C3 ; :contributesToEvaluate ecoss:msfd_D1C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.44 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Mortality rate from anthropogenic activities"@en ; skos:related ecoss:msfd_D10C4 ; :contributesToEvaluate ecoss:msfd_D10C4 ; skos:inScheme :msfd .
+ecoss:msfd_param.45 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Number of harmful algal bloom events"@en ; skos:related ecoss:msfd_D5C3 ; :contributesToEvaluate ecoss:msfd_D5C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.46 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Nutrient concentrations"@en ; skos:related ecoss:msfd_D5C1 ; :contributesToEvaluate ecoss:msfd_D5C1 ; skos:inScheme :msfd .
+ecoss:msfd_param.47 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "organic carbon"@en ; skos:related ecoss:msfd_D6C5 ; :contributesToEvaluate ecoss:msfd_D6C5 ; skos:inScheme :msfd .
+ecoss:msfd_param.48 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "pH"@en ; skos:related ecoss:msfd_D1C6, ecoss:msfd_D5C1, ecoss:msfd_D5C5 ; :contributesToEvaluate ecoss:msfd_D1C6, ecoss:msfd_D5C1, ecoss:msfd_D5C5 ; skos:inScheme :msfd .
+ecoss:msfd_param.49 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Representative specie abundance"@en ; skos:related ecoss:msfd_D1C2, ecoss:msfd_D1C3, ecoss:msfd_D1C4 ; :contributesToEvaluate ecoss:msfd_D1C2, ecoss:msfd_D1C3, ecoss:msfd_D1C4 ; skos:inScheme :msfd .
+ecoss:msfd_param.50 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Representative species age structure"@en ; skos:related ecoss:msfd_D1C3 ; :contributesToEvaluate ecoss:msfd_D1C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.51 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Representative species distribution"@en ; skos:related ecoss:msfd_D1C2, ecoss:msfd_D1C4, ecoss:msfd_D1C5 ; :contributesToEvaluate ecoss:msfd_D1C2, ecoss:msfd_D1C4, ecoss:msfd_D1C5 ; skos:inScheme :msfd .
+ecoss:msfd_param.52 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Representative species fecundity rate"@en ; skos:related ecoss:msfd_D1C3 ; :contributesToEvaluate ecoss:msfd_D1C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.53 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Representative species injury rate"@en ; skos:related ecoss:msfd_D1C1, ecoss:msfd_D1C2, ecoss:msfd_D1C3 ; :contributesToEvaluate ecoss:msfd_D1C1, ecoss:msfd_D1C2, ecoss:msfd_D1C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.54 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Representative species mortality rate"@en ; skos:related ecoss:msfd_D1C1, ecoss:msfd_D1C2, ecoss:msfd_D1C3 ; :contributesToEvaluate ecoss:msfd_D1C1, ecoss:msfd_D1C2, ecoss:msfd_D1C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.55 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Representative species sex structure"@en ; skos:related ecoss:msfd_D1C3 ; :contributesToEvaluate ecoss:msfd_D1C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.56 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Representative species size structure"@en ; skos:related ecoss:msfd_D1C3 ; :contributesToEvaluate ecoss:msfd_D1C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.57 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Representative species survival rate"@en ; skos:related ecoss:msfd_D1C1, ecoss:msfd_D1C2, ecoss:msfd_D1C3 ; :contributesToEvaluate ecoss:msfd_D1C1, ecoss:msfd_D1C2, ecoss:msfd_D1C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.58 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "salinity"@en ; skos:related ecoss:msfd_D1C6 ; :contributesToEvaluate ecoss:msfd_D1C6 ; skos:inScheme :msfd .
+ecoss:msfd_param.59 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Spatial distribution of anthropogenic impulsive sound sources"@en ; skos:related ecoss:msfd_D11C1 ; :contributesToEvaluate ecoss:msfd_D11C1 ; skos:inScheme :msfd .
+ecoss:msfd_param.60 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Spatial distribution of litter"@en ; skos:related ecoss:msfd_D10C1 ; :contributesToEvaluate ecoss:msfd_D10C1 ; skos:inScheme :msfd .
+ecoss:msfd_param.61 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Spatial distribution of micro-litter"@en ; skos:related ecoss:msfd_D10C2 ; :contributesToEvaluate ecoss:msfd_D10C2 ; skos:inScheme :msfd .
+ecoss:msfd_param.62 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Spatial extent and distribution of permanent alteration of hydrographical conditions to the seabed and water column"@en ; skos:related ecoss:msfd_D7C1 ; :contributesToEvaluate ecoss:msfd_D7C1 ; skos:inScheme :msfd .
+ecoss:msfd_param.63 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Spatial extent and distribution of physical disturbance pressures"@en ; skos:related ecoss:msfd_D6C2 ; :contributesToEvaluate ecoss:msfd_D6C2 ; skos:inScheme :msfd .
+ecoss:msfd_param.64 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Spatial extent of each benthic habitat type adversely affected due to permanent alteration of hydrographical conditions"@en ; skos:related ecoss:msfd_D7C2 ; :contributesToEvaluate ecoss:msfd_D7C2 ; skos:inScheme :msfd .
+ecoss:msfd_param.65 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Spatial extent of each habitat type adversely affected, through change in its biotic and abiotic structure and its functions by physical disturbance"@en ; skos:related ecoss:msfd_D6C3 ; :contributesToEvaluate ecoss:msfd_D6C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.66 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Spatial extent of each habitat type which is adversely affected, through change in its biotic and abiotic structure and its functions by physical disturbance"@en ; skos:related ecoss:msfd_D6C3 ; :contributesToEvaluate ecoss:msfd_D6C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.67 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Spatial extent of harmful algal blooms events"@en ; skos:related ecoss:msfd_D5C3 ; :contributesToEvaluate ecoss:msfd_D5C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.68 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Spatial extent of permanent alteration of hydrographical conditions to the seabed and water column"@en ; skos:related ecoss:msfd_D7C1 ; :contributesToEvaluate ecoss:msfd_D7C1 ; skos:inScheme :msfd .
+ecoss:msfd_param.69 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Spatial extent of physical disturbance pressures"@en ; skos:related ecoss:msfd_D6C2 ; :contributesToEvaluate ecoss:msfd_D6C2 ; skos:inScheme :msfd .
+ecoss:msfd_param.70 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Spatial extent of significant acute pollution events"@en ; skos:related ecoss:msfd_D8C3 ; :contributesToEvaluate ecoss:msfd_D8C3 ; skos:inScheme :msfd .
+ecoss:msfd_param.71 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Substrate morphology"@en ; skos:related ecoss:msfd_D6C5 ; :contributesToEvaluate ecoss:msfd_D6C5 ; skos:inScheme :msfd .
+ecoss:msfd_param.72 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Substrate type"@en ; skos:related ecoss:msfd_D6C5 ; :contributesToEvaluate ecoss:msfd_D6C5 ; skos:inScheme :msfd .
+ecoss:msfd_param.73 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Temperature"@en ; skos:related ecoss:msfd_D1C6, ecoss:msfd_D5C4, ecoss:msfd_D7C1 ; :contributesToEvaluate ecoss:msfd_D1C6, ecoss:msfd_D5C4, ecoss:msfd_D7C1 ; skos:inScheme :msfd .
+ecoss:msfd_param.74 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Temporal extent of anthropogenic impulsive sound sources"@en ; skos:related ecoss:msfd_D11C1 ; :contributesToEvaluate ecoss:msfd_D11C1 ; skos:inScheme :msfd .
+ecoss:msfd_param.75 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "The number of individuals of each species adversely affected due to litter, such as by entanglement, other types of injury or mortality, or health effects"@en ; skos:related ecoss:msfd_D10C4 ; :contributesToEvaluate ecoss:msfd_D10C4 ; skos:inScheme :msfd .
+ecoss:msfd_param.76 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Trophic guild group composition"@en ; skos:related ecoss:msfd_D4C1 ; :contributesToEvaluate ecoss:msfd_D4C1 ; skos:inScheme :msfd .
+ecoss:msfd_param.77 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Trophic guild species abundance"@en ; skos:related ecoss:msfd_D4C1 ; :contributesToEvaluate ecoss:msfd_D4C1 ; skos:inScheme :msfd .
+ecoss:msfd_param.78 a skos:Concept; a sosa:ObservableProperty ; skos:prefLabel "Turbidity"@en ; skos:related ecoss:msfd_D5C4 ; :contributesToEvaluate ecoss:msfd_D5C4 ; skos:inScheme :msfd .
