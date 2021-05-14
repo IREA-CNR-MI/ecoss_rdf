@@ -1,4 +1,4 @@
-PREFIX eunis_sites: <https://eunis.eea.europa.eu/sites/>
+PREFIX eunis_sites: <http://eunis.eea.europa.eu/sites/>
 PREFIX ecoss:<http://rdfdata.get-it.it/ecoss/>
 ecoss:var.1 ecoss:recommendedForSite eunis_sites:HR3000161, eunis_sites:HR3000469 .
 ecoss:var.1 ecoss:recommendedForSite eunis_sites:HR4000015 .
